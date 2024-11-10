@@ -18,7 +18,7 @@ if not api_key:
     api_key = getpass.getpass("Please enter your OpenAI API key: ")
 
 # Create OpenAI client
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+client = OpenAI(api_key=api_key)
 
 # Folder containing the PDFs to process
 pdf_folder = "BE_GAZETTE_PDFS"

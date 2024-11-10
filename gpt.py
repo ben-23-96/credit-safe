@@ -1,4 +1,5 @@
 from langdetect import detect
+from deep_translator import GoogleTranslator
 import json
 import re
 import os
@@ -71,6 +72,11 @@ class GPT:
         else:
             print("No JSON object found in the response.")
             return
+        
+        # ensure document purposes are in english, missing the translation once or twice
+        document_purposes = data["document_purpose"]
+        for i, purpose in enumerate(document_purposes):
+            document_purposes[i] = GoogleTranslator(source='auto', target='en').translate(purpose)
 
         # Read existing json data
         if os.path.exists("results.json"):
