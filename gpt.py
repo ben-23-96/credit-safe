@@ -18,16 +18,20 @@ class GPT:
         - Company Name
         - Company Number
         - Document Purpose
+        - Additional Information Summary:
+           - Provide a brief summary that includes all key points, names of indivuals, and dates of events related to the document's purpose. Keep the summary concise.
         
-        Provide the extracted information **only** in the following JSON format (no additional text):
+        
+        Provide the extracted information in English **only** in the following JSON format (no additional text):
         
         {{
           "company_name": "Extracted Company Name",
           "company_number": "Extracted Company Number",
           "document_purpose": ["Extracted Document Purpose"]
+          "additional_information": "Brief Extracted Summary"
         }}
         
-        Here is the text:
+        Here is the {language} text:
         
         {self.text}
         '''

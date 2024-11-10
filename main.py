@@ -42,15 +42,19 @@ for file_name in pdf_file_names:
     pdf_reader.crop_image()
 
     # Optional: save cropped image for testing and debugging
-    # with open(f"cropped_images/{file_name_without_suffix}.png", 'wb') as img_file:
-    #     img_file.write(pdf_reader.cropped_img_byte_arr)
+    #  if not os.path.exists("cropped_images"):
+    #      os.makedirs("cropped_images")
+    #  with open(f"cropped_images/{file_name_without_suffix}.png", 'wb') as img_file:
+    #      img_file.write(pdf_reader.cropped_img_byte_arr)
 
     # retrieve the text from the cropped image of the PDF using OCR
     pdf_text = pdf_reader.get_text()
 
     # Optional: save extracted text for testing and debugging
+    # if not os.path.exists("OCR_returned_text"):
+    #     os.makedirs("OCR_returned_text")
     # with open(f"OCR_returned_text/{file_name_without_suffix}.txt", "w", encoding="utf-8") as text_file:
-    #     text_file.write(text)
+    #     text_file.write(pdf_text)
 
     # create instance of the gpt class, passing the OpenAI client and the pdf text that it will analayse
     gpt = GPT(client=client, text=pdf_text)

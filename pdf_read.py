@@ -49,7 +49,7 @@ class PdfReader:
 
         try:
             # Define cropping box coordinates
-            left, top, right, bottom = 150, 310, 1180, 650
+            left, top, right, bottom = 150, 310, 1180, 1550
             cropped_image = self.pdf_as_img.crop((left, top, right, bottom))
             
             # Save the cropped image as bytes
