@@ -1,0 +1,80 @@
+{
+    "24000001": {
+        "company_name": "ADAM PARTENARIAT",
+        "company_number": "0567 779 701",
+        "document_purpose": [
+            "DEMISSION",
+            "NOMINATION",
+            "CESSION DE PARTS SOCIALES"
+        ]
+    },
+    "24000002": {
+        "company_name": "QUICK ENTREPRISE",
+        "company_number": "0795 785 723",
+        "document_purpose": [
+            "Nomination Administrateur",
+            "Démission Administrateur",
+            "Changement siège social"
+        ]
+    },
+    "24000003": {
+        "company_name": "YDE GROUP",
+        "company_number": "0759 698 852",
+        "document_purpose": [
+            "Nomination Administrateur",
+            "Démission Administrateur"
+        ]
+    },
+    "24000004": {
+        "company_name": "BRUSSEL SHOP",
+        "company_number": "0726 808 924",
+        "document_purpose": [
+            "Transfer of registered office",
+            "Transfer of shares"
+        ]
+    },
+    "24000005": {
+        "company_name": "GRANDR",
+        "company_number": "3644 86526",
+        "document_purpose": [
+            "Modification of Registered Office"
+        ]
+    },
+    "24000006": {
+        "company_name": "BIOCODEX BENELUX",
+        "company_number": "0401 936 623",
+        "document_purpose": [
+            "Renewal of Directors' Mandates"
+        ]
+    },
+    "24000007": {
+        "company_name": "THERMO SANITAR",
+        "company_number": "0700 794 910",
+        "document_purpose": [
+            "Adoption of new statutes in accordance with the Code of companies and associations"
+        ]
+    },
+    "24000008": {
+        "company_name": "LOLA & BILLY",
+        "company_number": "0766 838 151",
+        "document_purpose": [
+            "Nomination",
+            "Demission",
+            "Transfer of shares"
+        ]
+    },
+    "24000009": {
+        "company_name": "Non spécifié",
+        "company_number": "415 121 990",
+        "document_purpose": [
+            "Renewal of the Board of Directors"
+        ]
+    },
+    "24000010": {
+        "company_name": "DELCORDE ET WviLBERZ",
+        "company_number": "426 239 675",
+        "document_purpose": [
+            "Renewal of the Board of Directors"
+        ]
+    }
+}
